@@ -123,10 +123,19 @@ namespace ConsoleAppSixPartStarts197
                 if(sports.IndexOf(sport.ToLower()) == -1 ) {
                     Console.WriteLine("Thats not one. Guess Again: ");
                 
-                } else {
-                    Console.WriteLine($"You guessed it and the index is at {sports.IndexOf(sport.ToLower())}");
+                } else 
+                {
+                    Console.WriteLine("You guessed right");
+                    for (int i = 0; i < sports.Count; i++)
+			        {
+                        if(sport.ToLower() == sports[i]) 
+                        {
+                            Console.WriteLine($"Index at: {i}");      
+                        }
+                    }
+
                     guessedSport = true;
-                }
+                 }
             
             } while(!guessedSport);
 
