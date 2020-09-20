@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFunctions", "StringFu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyOne", "TwentyOne\TwentyOne.csproj", "{F7C0C7E6-9902-4962-B52C-98D755D8219E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppClass216", "ConsoleAppClass216\ConsoleAppClass216.csproj", "{2A622521-E3B3-4D2C-ACCB-B5DA3ECE1237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{F7C0C7E6-9902-4962-B52C-98D755D8219E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C0C7E6-9902-4962-B52C-98D755D8219E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C0C7E6-9902-4962-B52C-98D755D8219E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A622521-E3B3-4D2C-ACCB-B5DA3ECE1237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A622521-E3B3-4D2C-ACCB-B5DA3ECE1237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A622521-E3B3-4D2C-ACCB-B5DA3ECE1237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A622521-E3B3-4D2C-ACCB-B5DA3ECE1237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
