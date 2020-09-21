@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TwentyOne
 {
@@ -6,6 +7,7 @@ namespace TwentyOne
     {
         static void Main()
         {
+
             Deck deck = new Deck();
             deck.Shuffle(3);
 
