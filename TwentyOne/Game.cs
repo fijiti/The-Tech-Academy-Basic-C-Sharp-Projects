@@ -7,13 +7,17 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Game
+    public abstract class Game
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
-        public void ListPlayers()
+        // Inheriting classes must have this method even though its not implemented.  
+        public abstract void Play();
+
+        // This can be overidden or added capability to classes inheriting. 
+        public virtual void ListPlayers()
         {
             foreach (string player in Players)
             {
