@@ -27,7 +27,7 @@ namespace ConsoleApp245
 
         public static bool operator!=(Employee employee1, Employee employee2)
         {
-            if(employee1.Id != employee1.Id)
+            if(employee1.Id != employee2.Id)
             {
                 return true;
             } else
