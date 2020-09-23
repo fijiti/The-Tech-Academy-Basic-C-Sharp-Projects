@@ -1,31 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ConsoleApp254
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             bool isDayOfWeek = false;
-           
-            try
+            do
             {
-                Console.WriteLine("Please enter a day of the week capitalized:");
-                string day = Console.ReadLine();
-                DaysOfWeek aDay = (DaysOfWeek)Enum.Parse(typeof(DaysOfWeek), day, true);
-                Console.WriteLine(day);
-               
- 
-            }
-            catch (Exception)
-            {
+                try
+                {
+                    Console.WriteLine("Please enter a day of the week:");
+                    string day = Console.ReadLine();
+                    DaysOfWeek aDay = (DaysOfWeek)Enum.Parse(typeof(DaysOfWeek), day, true);
+                    Console.WriteLine($"{aDay} is a day of the week!");
+                    isDayOfWeek = true;
 
-                Console.WriteLine("That is not one of the days of the week.");
-            }
+
+                }
+                catch (Exception)
+                {
+
+                    Console.WriteLine("That is not a day of the week.");
+                }
+                finally
+                {
+                    Console.WriteLine("");
+                }
+            } while (!isDayOfWeek);
+
+            Console.WriteLine("Thanks!");
             Console.ReadLine();
     
         }
