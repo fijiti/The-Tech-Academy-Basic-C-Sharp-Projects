@@ -11,7 +11,8 @@ namespace TwentyOne
     {
         public List<Player> Players { get; set; }
         public string Name { get; set; }
-        public string Dealer { get; set; }
+        public Dictionary<Player, int> Bets { get; set; }
+
 
         // Inheriting classes must have this method even though its not implemented.  
         public abstract void Play();

@@ -16,8 +16,21 @@ namespace TwentyOne
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
-                Player player = new Player();
+                Player player = new Player(playerName, bank);
+                //Polymorphism
+                Game game = new TwentyOneGame();
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
+                  
             }
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
+            Console.Read();
 
         }
 
