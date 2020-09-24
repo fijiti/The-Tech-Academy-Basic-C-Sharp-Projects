@@ -12,7 +12,7 @@ namespace TwentyOne
         public Face Face { get; set; }
         public override string ToString()
         {
-            return string.Format($"{Face} of {Suit}");
+            return string.Format($"{Face} of {Suit} ");
         }
     }
 
