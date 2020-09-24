@@ -8,16 +8,14 @@ namespace ConsoleApp265
 {
     public class Employee
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Id { get; set; }
-
-        public Employee (string firstName, string lastName, int id)
+        public Employee(string firstName, string lastName, int id)
         {
             FirstName = firstName;
             LastName = lastName;
             Id = id;
         }
-
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Id { get; set; }
     }
 }
