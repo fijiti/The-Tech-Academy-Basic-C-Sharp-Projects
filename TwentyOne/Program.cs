@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace TwentyOne
 {
@@ -7,18 +8,10 @@ namespace TwentyOne
     {
         static void Main()
         {
-
-           
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jesse";
-            game += player;
-
-            game -= player;
-
-
             Deck deck = new Deck();
+
+
+
             deck.Shuffle(3);
 
             foreach (Card card in deck.Cards)
