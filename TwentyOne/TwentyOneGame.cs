@@ -138,8 +138,36 @@ namespace TwentyOne
             foreach (Player player in Players)
             {
                 bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);
+                if (playerWon == null)
+                {
+                    Console.WriteLine("Push! No one wins.");
+                    player.Balance += Bets[player];
+           
+                }
+                else if (playerWon == true)
+                {
+                    Console.WriteLine($"{player.Name} won {Bets[player]}!");
+                    player.Balance += (Bets[player] * 2);
+                    Dealer.Balance -= Bets[player];
+                }
+                else
+                {
+                    Console.WriteLine($"Dealer wins {Bets[player]}!");
+                    Dealer.Balance += Bets[player];
+                }
+                Console.WriteLine("Play again?");
+                string answer = Console.ReadLine().ToLower();
+                if (answer == "yes" || answer == "yeah")
+                {
+                    player.isActivelyPlaying = true;
+                }
+                else
+                {
+                    player.isActivelyPlaying = false;
+                }
+                
             }
-
+           
 
         }
 
