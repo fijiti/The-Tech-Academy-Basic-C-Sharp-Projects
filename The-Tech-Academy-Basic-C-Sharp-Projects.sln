@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp293", "ConsoleApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino", "Casino\Casino.csproj", "{E6144E12-0D57-4529-B011-9FDDE42FBA26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp303", "ConsoleApp303\ConsoleApp303.csproj", "{C52A23B2-5A9B-42C7-A8E0-52A03B014F48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{E6144E12-0D57-4529-B011-9FDDE42FBA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6144E12-0D57-4529-B011-9FDDE42FBA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6144E12-0D57-4529-B011-9FDDE42FBA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52A23B2-5A9B-42C7-A8E0-52A03B014F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52A23B2-5A9B-42C7-A8E0-52A03B014F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52A23B2-5A9B-42C7-A8E0-52A03B014F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52A23B2-5A9B-42C7-A8E0-52A03B014F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

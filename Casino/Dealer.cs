@@ -17,13 +17,7 @@ namespace Casino
         {
             Hand.Add(Deck.Cards.First());
             string card = string.Format(Deck.Cards.First().ToString() + "\n");
-            Console.WriteLine(card);
-            using (StreamWriter file = new StreamWriter(@"C:\Users\fijit\Logs\log.txt", true))
-            {
-                file.WriteLine(DateTime.Now);
-                file.WriteLine(card);
-            }
-            
+            Console.WriteLine(card);           
             Deck.Cards.RemoveAt(0);
         }
     }

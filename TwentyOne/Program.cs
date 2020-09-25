@@ -23,6 +23,7 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
                 //Polymorphism
                 Game game = new TwentyOneGame();
                 game += player;
