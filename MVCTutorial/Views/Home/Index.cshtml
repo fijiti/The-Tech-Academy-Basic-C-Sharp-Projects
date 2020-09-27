@@ -1,9 +1,14 @@
-﻿@using System.Collections.Generic
-@model List<string>
+﻿@model MVCTutorial.Models.User
 
-@foreach (var name in Model)
-{
 <h1>
-    @name
+    @Model.Id
 </h1>
-}
+<h1>
+    @Model.FirstName
+</h1>
+<h1>
+    @Model.LastName
+</h1>
+<h1>
+    @Model.Age
+</h1>
