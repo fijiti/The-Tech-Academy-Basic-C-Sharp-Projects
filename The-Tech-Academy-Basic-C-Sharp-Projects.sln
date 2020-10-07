@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTutorial", "MVCTutorial\MVCTutorial.csproj", "{B40354D6-4A5E-40A6-9DD4-830BFB419D74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp117", "ConsoleApp117\ConsoleApp117.csproj", "{96E941B5-C537-4565-94C0-5C6C0946E389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{B40354D6-4A5E-40A6-9DD4-830BFB419D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B40354D6-4A5E-40A6-9DD4-830BFB419D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B40354D6-4A5E-40A6-9DD4-830BFB419D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E941B5-C537-4565-94C0-5C6C0946E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E941B5-C537-4565-94C0-5C6C0946E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E941B5-C537-4565-94C0-5C6C0946E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E941B5-C537-4565-94C0-5C6C0946E389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
